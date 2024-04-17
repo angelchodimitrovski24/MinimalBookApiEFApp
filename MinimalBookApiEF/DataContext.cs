@@ -11,7 +11,7 @@ namespace MinimalBookApiEF
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=LAPTOP-DKBREF3Q\\SQLEXPRESS;Database=minimalbookdb;Trusted_Connection=true;Encrypt=false;");
+            optionsBuilder.UseSqlServer("Server=server;Database=minimalbookdb;Trusted_Connection=true;Encrypt=false;");
 
         }
 
