@@ -1,0 +1,6 @@
+@MinimalBookApiEF_HostAddress = http://localhost:5272
+
+GET {{MinimalBookApiEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
